@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+   android:id="@+id/activity_quiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.lela.novikviz.QuizActivity">
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vrime"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/vrime"
+        android:textSize="20sp"
+     />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_alignParentRight="true"
+        android:id="@+id/rezultat"
+        android:textSize="20sp"
+         />
+</RelativeLayout>
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:id="@+id/question"
+      />
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:background="#0091EA"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/choice1"
+       />
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:background="#0091EA"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/choice2"
+      />
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:background="#0091EA"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/choice3"
+        />
+
+    <android.support.v7.widget.AppCompatButton
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:background="#0091EA"
+        android:layout_marginBottom="24dp"
+       android:id="@+id/choice4"
+        />
+
+
+</android.support.v7.widget.LinearLayoutCompat>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "854531761405",
+    "firebase_url": "https://novikviz-6a632.firebaseio.com",
+    "project_id": "novikviz-6a632",
+    "storage_bucket": "novikviz-6a632.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854531761405:android:5d33bef3efb7b352",
+        "android_client_info": {
+          "package_name": "com.example.lela.novikviz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854531761405-f1tdsdln6v469dkullgfuup5srjcmm9o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwxpYlDrxgQhhgjDJsjl3SbgZkw9gx9Ss"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
